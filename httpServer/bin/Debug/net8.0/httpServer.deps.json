@@ -1,0 +1,255 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "httpServer/1.0.0": {
+        "dependencies": {
+          "GenHTTP.Engine": "8.4.0"
+        },
+        "runtime": {
+          "httpServer.dll": {}
+        }
+      },
+      "GenHTTP.Api/8.4.0": {
+        "runtime": {
+          "lib/net8.0/GenHTTP.Api.dll": {
+            "assemblyVersion": "8.4.0.0",
+            "fileVersion": "8.4.0.0"
+          }
+        }
+      },
+      "GenHTTP.Engine/8.4.0": {
+        "dependencies": {
+          "GenHTTP.Api": "8.4.0",
+          "GenHTTP.Modules.ErrorHandling": "8.4.0",
+          "GenHTTP.Modules.IO": "8.4.0",
+          "GenHTTP.Modules.Placeholders": "8.4.0",
+          "PooledAwait": "1.0.49",
+          "System.IO.Pipelines": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/GenHTTP.Engine.dll": {
+            "assemblyVersion": "8.4.0.0",
+            "fileVersion": "8.4.0.0"
+          }
+        }
+      },
+      "GenHTTP.Modules.Basics/8.4.0": {
+        "dependencies": {
+          "GenHTTP.Api": "8.4.0",
+          "System.Linq.Async": "6.0.1",
+          "System.Text.Json": "8.0.3"
+        },
+        "runtime": {
+          "lib/net8.0/GenHTTP.Modules.Basics.dll": {
+            "assemblyVersion": "8.4.0.0",
+            "fileVersion": "8.4.0.0"
+          }
+        }
+      },
+      "GenHTTP.Modules.ErrorHandling/8.4.0": {
+        "dependencies": {
+          "GenHTTP.Api": "8.4.0",
+          "GenHTTP.Modules.Pages": "8.4.0"
+        },
+        "runtime": {
+          "lib/net8.0/GenHTTP.Modules.ErrorHandling.dll": {
+            "assemblyVersion": "8.4.0.0",
+            "fileVersion": "8.4.0.0"
+          }
+        }
+      },
+      "GenHTTP.Modules.IO/8.4.0": {
+        "dependencies": {
+          "GenHTTP.Api": "8.4.0",
+          "GenHTTP.Modules.Basics": "8.4.0",
+          "GenHTTP.Modules.Pages": "8.4.0",
+          "System.Linq.Async": "6.0.1"
+        },
+        "runtime": {
+          "lib/net8.0/GenHTTP.Modules.IO.dll": {
+            "assemblyVersion": "8.4.0.0",
+            "fileVersion": "8.4.0.0"
+          }
+        }
+      },
+      "GenHTTP.Modules.Pages/8.4.0": {
+        "dependencies": {
+          "GenHTTP.Api": "8.4.0",
+          "GenHTTP.Modules.Basics": "8.4.0",
+          "Microsoft.IO.RecyclableMemoryStream": "3.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/GenHTTP.Modules.Pages.dll": {
+            "assemblyVersion": "8.4.0.0",
+            "fileVersion": "8.4.0.0"
+          }
+        }
+      },
+      "GenHTTP.Modules.Placeholders/8.4.0": {
+        "dependencies": {
+          "GenHTTP.Api": "8.4.0",
+          "GenHTTP.Modules.Basics": "8.4.0",
+          "GenHTTP.Modules.IO": "8.4.0"
+        },
+        "runtime": {
+          "lib/net8.0/GenHTTP.Modules.Placeholders.dll": {
+            "assemblyVersion": "8.4.0.0",
+            "fileVersion": "8.4.0.0"
+          }
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Microsoft.IO.RecyclableMemoryStream/3.0.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.IO.RecyclableMemoryStream.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "PooledAwait/1.0.49": {
+        "runtime": {
+          "lib/netcoreapp3.0/PooledAwait.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.48.55943"
+          }
+        }
+      },
+      "System.IO.Pipelines/8.0.0": {},
+      "System.Linq.Async/6.0.1": {
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Linq.Async.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.1.35981"
+          }
+        }
+      },
+      "System.Text.Encodings.Web/8.0.0": {},
+      "System.Text.Json/8.0.3": {
+        "dependencies": {
+          "System.Text.Encodings.Web": "8.0.0"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "httpServer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GenHTTP.Api/8.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XowqoVlFqQ3OIA5+VBjVk/xltDJWJdab4NVCCNhbqICqginTdwZS4d/BtlJM2D8Nr1Zn7TIZA9gtCWzrOR0L3w==",
+      "path": "genhttp.api/8.4.0",
+      "hashPath": "genhttp.api.8.4.0.nupkg.sha512"
+    },
+    "GenHTTP.Engine/8.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZvdV6GKDm0lwujXuhkv9IissAZ3cW4m0XYuL+hxKjFp0FFKvigRdjU+BxbQQnmTRMBoG4nX/4foO+A2WC7nb1g==",
+      "path": "genhttp.engine/8.4.0",
+      "hashPath": "genhttp.engine.8.4.0.nupkg.sha512"
+    },
+    "GenHTTP.Modules.Basics/8.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VcEBXHUnOWYDpfS6mgL0vczp/kMaVMXsrlbRgc+m0Nwh1NWXhTclNXOLmM8ye5MmIQddPYi5INfUcgH5R+5Ycw==",
+      "path": "genhttp.modules.basics/8.4.0",
+      "hashPath": "genhttp.modules.basics.8.4.0.nupkg.sha512"
+    },
+    "GenHTTP.Modules.ErrorHandling/8.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nbVamAP03+HQX0csVoATtbKKI5lpLwdgKWlneyueY84pf8azEtIsU891IwUDsO5saSnJIV7sI/PlHMLHRcS9TQ==",
+      "path": "genhttp.modules.errorhandling/8.4.0",
+      "hashPath": "genhttp.modules.errorhandling.8.4.0.nupkg.sha512"
+    },
+    "GenHTTP.Modules.IO/8.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-91RSWtv4f/GpI0sQd1tm1zvn7T48WD6hB5HHUIsHWde/ghu9vdbAwHpBFdycvE0JglYi5y7M5laPu12w2+DgaQ==",
+      "path": "genhttp.modules.io/8.4.0",
+      "hashPath": "genhttp.modules.io.8.4.0.nupkg.sha512"
+    },
+    "GenHTTP.Modules.Pages/8.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-w1hhPp597GFEXrC3HHn3UUkqxL4lMaOOnsmo+XGHMTFyteL+HiECws0T3RNWKrgSGb6mydPll9lb2xxPAzhlCw==",
+      "path": "genhttp.modules.pages/8.4.0",
+      "hashPath": "genhttp.modules.pages.8.4.0.nupkg.sha512"
+    },
+    "GenHTTP.Modules.Placeholders/8.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GQEINPrcfJk0NKLD/NGIYbKVSa397pwWxmGGRhPkJX/B1XaBM2he5WtmzESX8cXuF3aE8s2WqOZDh6At2IxP0Q==",
+      "path": "genhttp.modules.placeholders/8.4.0",
+      "hashPath": "genhttp.modules.placeholders.8.4.0.nupkg.sha512"
+    },
+    "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UcSjPsst+DfAdJGVDsu346FX0ci0ah+lw3WRtn18NUwEqRt70HaOQ7lI72vy3+1LxtqI3T5GWwV39rQSrCzAeg==",
+      "path": "microsoft.bcl.asyncinterfaces/6.0.0",
+      "hashPath": "microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.IO.RecyclableMemoryStream/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-irv0HuqoH8Ig5i2fO+8dmDNdFdsrO+DoQcedwIlb810qpZHBNQHZLW7C/AHBQDgLLpw2T96vmMAy/aE4Yj55Sg==",
+      "path": "microsoft.io.recyclablememorystream/3.0.0",
+      "hashPath": "microsoft.io.recyclablememorystream.3.0.0.nupkg.sha512"
+    },
+    "PooledAwait/1.0.49": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-stq3Af/4ptnLFbtrniDcZCeSl0JtZoiTnPHm1pkJ6sQM07Jj1zG9NN5rOP5dVh2VNSblloKTxBVAnBJ8MktlFw==",
+      "path": "pooledawait/1.0.49",
+      "hashPath": "pooledawait.1.0.49.nupkg.sha512"
+    },
+    "System.IO.Pipelines/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FHNOatmUq0sqJOkTx+UF/9YK1f180cnW5FVqnQMvYUN0elp6wFzbtPSiqbo1/ru8ICp43JM1i7kKkk6GsNGHlA==",
+      "path": "system.io.pipelines/8.0.0",
+      "hashPath": "system.io.pipelines.8.0.0.nupkg.sha512"
+    },
+    "System.Linq.Async/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0YhHcaroWpQ9UCot3Pizah7ryAzQhNvobLMSxeDIGmnXfkQn8u5owvpOH0K6EVB+z9L7u6Cc4W17Br/+jyttEQ==",
+      "path": "system.linq.async/6.0.1",
+      "hashPath": "system.linq.async.6.0.1.nupkg.sha512"
+    },
+    "System.Text.Encodings.Web/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yev/k9GHAEGx2Rg3/tU6MQh4HGBXJs70y7j1LaM1i/ER9po+6nnQ6RRqTJn1E7Xu0fbIFK80Nh5EoODxrbxwBQ==",
+      "path": "system.text.encodings.web/8.0.0",
+      "hashPath": "system.text.encodings.web.8.0.0.nupkg.sha512"
+    },
+    "System.Text.Json/8.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hpagS9joOwv6efWfrMmV9MjQXpiXZH72PgN067Ysfr6AWMSD1/1hEcvh/U5mUpPLezEWsOJSuVrmqDIVD958iA==",
+      "path": "system.text.json/8.0.3",
+      "hashPath": "system.text.json.8.0.3.nupkg.sha512"
+    }
+  }
+}

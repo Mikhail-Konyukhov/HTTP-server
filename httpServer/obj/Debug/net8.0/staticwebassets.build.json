@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "EyropEZN3ich2LjOnhWdv5emiCEXX4xNEqwMewqus5g=",
+  "Source": "httpServer",
+  "BasePath": "_content/httpServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

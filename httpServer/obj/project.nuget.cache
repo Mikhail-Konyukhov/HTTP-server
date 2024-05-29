@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "28z2Uvq4ZsBcKZxcb4sEhg5uuE6mcqeaq6nTg30Gwl1bdP9wj6ts+VGquAwwpy5PhUo8ouy33BkV1Xw2bmwc9A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\MuxauJl\\source\\repos\\httpServer\\httpServer\\httpServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MuxauJl\\.nuget\\packages\\genhttp.api\\8.4.0\\genhttp.api.8.4.0.nupkg.sha512",
+    "C:\\Users\\MuxauJl\\.nuget\\packages\\genhttp.engine\\8.4.0\\genhttp.engine.8.4.0.nupkg.sha512",
+    "C:\\Users\\MuxauJl\\.nuget\\packages\\genhttp.modules.basics\\8.4.0\\genhttp.modules.basics.8.4.0.nupkg.sha512",
+    "C:\\Users\\MuxauJl\\.nuget\\packages\\genhttp.modules.errorhandling\\8.4.0\\genhttp.modules.errorhandling.8.4.0.nupkg.sha512",
+    "C:\\Users\\MuxauJl\\.nuget\\packages\\genhttp.modules.io\\8.4.0\\genhttp.modules.io.8.4.0.nupkg.sha512",
+    "C:\\Users\\MuxauJl\\.nuget\\packages\\genhttp.modules.pages\\8.4.0\\genhttp.modules.pages.8.4.0.nupkg.sha512",
+    "C:\\Users\\MuxauJl\\.nuget\\packages\\genhttp.modules.placeholders\\8.4.0\\genhttp.modules.placeholders.8.4.0.nupkg.sha512",
+    "C:\\Users\\MuxauJl\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
+    "C:\\Users\\MuxauJl\\.nuget\\packages\\microsoft.io.recyclablememorystream\\3.0.0\\microsoft.io.recyclablememorystream.3.0.0.nupkg.sha512",
+    "C:\\Users\\MuxauJl\\.nuget\\packages\\pooledawait\\1.0.49\\pooledawait.1.0.49.nupkg.sha512",
+    "C:\\Users\\MuxauJl\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
+    "C:\\Users\\MuxauJl\\.nuget\\packages\\system.linq.async\\6.0.1\\system.linq.async.6.0.1.nupkg.sha512",
+    "C:\\Users\\MuxauJl\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\MuxauJl\\.nuget\\packages\\system.text.json\\8.0.3\\system.text.json.8.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
